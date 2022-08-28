@@ -1,0 +1,24 @@
+{
+  "name": "fullstackbankingapp",
+  "version": "1.0.0",
+  "description": "lowdb sample for 1.125",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+  },
+  "engines": {
+    "node": "16.15.1"
+  },
+  "author": "abel@mit.edu",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "firebase": "^9.9.3",
+    "firebase-admin": "^11.0.1",
+    "lowdb": "^1.0.0",
+    "mongodb": "^3.6.2",
+    "nodemon": "^2.0.19"
+  }
+}
